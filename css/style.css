@@ -1,0 +1,203 @@
+:root{
+    font-family: 'Montserrat', sans-serif;
+    --white: #fff;
+    --footer-color: #B9BDCF;
+    --primary-text-color: #4E5150;
+    --secondary-text-color-100: #BDBDBD;
+    --secondary-text-color-200: #A9A9A9;
+    --background-card-color: #E5E5E5;
+}
+
+body{
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: calc(100vh - 3rem);
+    justify-content: space-between;
+    gap: 1.5rem;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 2rem 1rem 0;
+}
+
+body > .profile{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.profile > .profile-photo{
+    width: 10rem;
+    border-radius: 1rem;
+}
+
+.profile > .profile-text{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-text > .name{
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: var(--primary-text-color);
+    text-transform: capitalize;
+}
+
+.profile-text > .location{
+    font-weight: 600;
+    font-size: 0.8rem;
+    line-height: 0.95rem;
+    color: var(--secondary-text-color-200);
+    text-transform: capitalize;
+}
+
+.profile > .info {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1rem;
+    width: 100%;
+    justify-content: center;
+}
+
+.info > .item{
+    flex: 0 0 100px;
+    height: 70px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.75rem;
+    background-color: var(--background-card-color);
+}
+
+.item > .number {
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    color: var(--primary-text-color);
+}
+
+.item > .title {
+    font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 0.95rem;
+    color: var(--secondary-text-color-100);
+    text-transform: capitalize;
+}
+
+body > .content{
+    display: grid;
+    grid-template-areas: 
+        "one two two"
+        "three three four"
+        "five six four";
+    gap: 1rem;
+    
+}
+
+.content>.photo:nth-child(1){
+    grid-area: one;
+}
+
+
+.content>.photo:nth-child(2){
+    grid-area: two;
+}
+
+.content>.photo:nth-child(3){
+    grid-area: three;
+}
+
+.content>.photo:nth-child(4){
+    grid-area: four;
+}
+
+.content>.photo:nth-child(5){
+    grid-area: five;
+}
+
+.content>.photo:nth-child(6){
+    grid-area: six;
+}
+
+.content > .photo{
+    width: 100%;
+    border-radius: 0.75rem;
+    height: 100%;
+    filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.15));
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.text-footer{
+    color: var(--footer-color);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.strong{
+    color: var(--footer-color);
+    font-weight: 700;
+}
+
+.strong:hover{
+    color: var(--primary-text-color);
+}
+
+@media screen and (max-width: 440px){
+
+    @media screen and (max-height: 750px){
+        .footer{
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            margin-top: 1rem;
+            padding-bottom: 1rem;
+            text-align: center;
+        }
+    }
+
+    .profile > .profile-photo{
+        width: 8rem;
+    }
+    
+}
+
+@media screen and (max-width: 370px) {
+    .profile-text > .name{
+        font-size: 0.9rem;
+        line-height: 1rem;
+    }
+    
+    .profile-text > .location{
+        font-size: 0.6rem;
+        line-height: 0.75rem;
+    }
+
+    .info > .item{
+        flex: 1 0 70px;
+        height: 60px;
+    }
+    
+    .item > .number {
+        font-size: 0.75rem;
+        line-height: 0.9rem;
+    }
+    
+    .item > .title {
+        font-size: 0.75rem;
+        line-height: 0.9rem;
+    }
+}
