@@ -40,7 +40,7 @@
    <img src="https://github.com/afuentes11/my-gallery-devChallenges/blob/master/img/mobile%20screen.png" alt="css3" width="35%" />
 </div>
 
-The project consists of creating a responsive website to display a photo profile. [The original design](https://www.figma.com/file/2jVBTSKeCYF0dIN6fi0stX?chrome=DOCUMENTATION&embed_host=astra&kind=&node-id=0%3A1&viewer=1) was provided by Devchallenges in the challenge.
+The project consists of creating a responsive website to display a photo profile. [The original design](https://www.figma.com/file/HHzg6Ywq8jamFTB0J4iXKM?chrome=DOCUMENTATION&embed_host=astra&kind=&node-id=0%3A1&viewer=1) was provided by Devchallenges in the challenge.
 
 The page can be viewed at the following [link](https://afuentes11.github.io/my-gallery-devChallenges/). If you liked the project, give me a star ⭐.
 
@@ -57,7 +57,7 @@ In the layout of the design properties like display grid, using properties like 
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/) challenge. The [challenge](https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/) challenge. The [challenge](https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I) was to build an application to complete the given user stories.
 
  - User story: I can see a page following the given design
 
