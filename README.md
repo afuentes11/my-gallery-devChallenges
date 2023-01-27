@@ -59,9 +59,7 @@ In the layout of the design properties like display grid, using properties like 
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/) challenge. The [challenge](https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht) was to build an application to complete the given user stories.
 
- - User story: I can see a recipe with ingredients and instructions
- - User story: I can select a checkbox if I have the ingredients
- - User story: I can see the number of servings, baking times
+ - User story: I can see a page following the given design
 
 ## Contact
 
